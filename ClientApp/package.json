@@ -8,7 +8,9 @@
     "build:ssr": "ng run MaxMyMoney:server:dev",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +23,7 @@
     "@angular/platform-browser-dynamic": "12.2.2",
     "@angular/platform-server": "12.2.2",
     "@angular/router": "12.2.2",
+    "@ngrx/store": "^12.4.0",
     "@nguniversal/module-map-ngfactory-loader": "8.1.1",
     "aspnet-prerendering": "^3.0.1",
     "bootstrap": "^5.1.0",
@@ -36,6 +39,7 @@
     "@angular/cli": "^12.2.2",
     "@angular/compiler-cli": "^12.2.2",
     "@angular/language-service": "^12.2.2",
+    "@cypress/schematic": "^1.5.0",
     "@types/jasmine": "~3.8.2",
     "@types/jasminewd2": "~2.0.10",
     "@types/node": "~16.6.2",
@@ -47,7 +51,8 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~4.0.1",
     "karma-jasmine-html-reporter": "^1.7.0",
-    "typescript": "4.3.5"
+    "typescript": "4.3.5",
+    "cypress": "8.3.1"
   },
   "optionalDependencies": {
     "node-sass": "^6.0.1",
